@@ -20,7 +20,7 @@ sql/$(EXTENSION)--$(EXTVERSION).sql: sql/$(EXTENSION).sql
 	cp $< $@
 
 DATA = $(wildcard sql/*--*.sql) sql/$(EXTENSION)--$(EXTVERSION).sql
-EXTRA_CLEAN = sql/$(EXTENSION)--$(EXTVERSION).sql $(EXTENSION).control
+EXTRA_CLEAN = sql/$(EXTENSION)--$(EXTVERSION).sql
 
 PGXS := $(shell $(PG_CONFIG) --pgxs)
 include $(PGXS)
