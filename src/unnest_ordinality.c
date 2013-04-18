@@ -1,3 +1,15 @@
+/*-------------------------------------------------------------------------
+ *
+ * unnest_ordinality.c
+ *
+ *      Turn an array into a set of (element_number, element) pairs.
+ *
+ * Copyright (c) 2013 Andrew Dunstan
+ *
+ * See acompanying License file for usage permissions.
+ *
+ *-------------------------------------------------------------------------
+ */
 
 
 #include "postgres.h"
