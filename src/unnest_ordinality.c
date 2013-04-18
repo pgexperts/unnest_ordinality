@@ -5,6 +5,9 @@
 #include "fmgr.h"
 #include "funcapi.h"
 #include "miscadmin.h"
+#if PG_VERSION_NUM > 90200
+#include "access/htup_details.h"
+#endif
 #include "catalog/pg_type.h"
 #include "utils/array.h"
 #include "utils/builtins.h"
