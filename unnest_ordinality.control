@@ -1,6 +1,6 @@
 # unnest_ordinality extension
 comment = 'unnest function with ordinality'
-default_version = '0.0.1'
+default_version = '1.0.0'
 module_pathname = '$libdir/unnest_ordinality'
 relocatable = true
 
