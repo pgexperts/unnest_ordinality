@@ -41,6 +41,6 @@
       "array",
       "unnest",
       "ordinality",
-      "row_number",
+      "row_number"
    ]
 }
