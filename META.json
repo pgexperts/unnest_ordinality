@@ -2,7 +2,7 @@
    "name": "unnest_ordinality",
    "abstract": "turn an array into a set of (element_number, element) pairs",
    "description": "Fast unnest of a PostgreSQL array, with row number added",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "maintainer": [
       "Andrew Dunstan <andrew@dunslane.net>"
    ],
@@ -12,7 +12,7 @@
          "abstract": "turn an array into a set of (element_number, element) pairs",
          "file": "sql/unnest_ordinality.sql",
          "docfile": "doc/unnest_ordinality.md",
-         "version": "1.0.0"
+         "version": "1.0.1"
       }
    },
    "prereqs": {
